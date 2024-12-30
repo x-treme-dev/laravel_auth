@@ -1,0 +1,14 @@
+В данном приложении реализован монолит
+
+В resources/views/layouts/ добавлены готовые шаблоны (директории auth и layouts)
+
+Аутентификаци - Кто это? Логин и пароль
+Авторизация - Что ему можно делать? Вот твой уровень доступа
+
+laravel Breeze - базовый набор для аутентификаци
+laravel Jetstream - регистрация, аутентификация, управление сессиями и пр.
+laravel jwt-auth (by Sean Tymon, jwt - json web tokens) - для аутентификаци по api
+
+1. Создать AuthController в отдельной папке Auth
+php artisan make:controller Auth/AuthController
+
